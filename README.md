@@ -12,11 +12,11 @@ Sample Code:
 Button updateButton = findViewById(R.id.button_update);
 
 // Attaching an OnClickListener to updateButton.
-        updateButton.setOnClickListener((v) -> {
-        // Get the TextView.
-        TextView textView = findViewById(R.id.text_view);
-        textView.setText(R.string.text_two);
-        });
+updateButton.setOnClickListener((v) -> {
+     // Get the TextView.
+     TextView textView = findViewById(R.id.text_view);
+     textView.setText(R.string.text_two);
+ });
 ```
 
 ### Screenshots
